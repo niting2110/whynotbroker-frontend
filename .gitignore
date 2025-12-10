@@ -2,6 +2,6 @@
 .next/
 .env.local
 .env
-.DS_Store
 .vscode/
 dist/
+.DS_Store
