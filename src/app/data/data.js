@@ -61,10 +61,33 @@ export const chatData = [];
 export const invoiceData = [];
 export const pricingData = [];
 export const pricingPlan = pricingData;
-export const partnerData = [];
+export const partnerData = [
+    { name: "Company 1", logo: "/images/client/amazon.svg" },
+    { name: "Company 2", logo: "/images/client/google.svg" },
+    { name: "Company 3", logo: "/images/client/lenovo.svg" },
+    { name: "Company 4", logo: "/images/client/paypal.svg" },
+    { name: "Company 5", logo: "/images/client/shopify.svg" },
+    { name: "Company 6", logo: "/images/client/spotify.svg" }
+];
 export const teamData = [];
 export const counterData = [];
-export const aboutData = {};
+export const aboutData = [
+    {
+        icon: <FiHexagon />,
+        title: "Buy Property",
+        description: "Find your dream home with our extensive listings"
+    },
+    {
+        icon: <FiHexagon />,
+        title: "Sell Property",
+        description: "List your property and reach thousands of buyers"
+    },
+    {
+        icon: <FiHexagon />,
+        title: "Rent Property",
+        description: "Find perfect rental properties for your needs"
+    }
+];
 export const listingData = [];
 export const accordianData = [];
 export const accordion = accordianData;
@@ -97,6 +120,8 @@ export default {
   chatData, invoiceData, pricingData, partnerData, teamData, counterData,
   aboutData, listingData, accordianData, conatctDetails, contactDetails
 };
+
+
 
 
 
