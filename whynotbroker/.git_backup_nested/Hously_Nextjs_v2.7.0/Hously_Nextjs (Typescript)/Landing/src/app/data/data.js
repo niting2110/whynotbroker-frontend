@@ -1,4 +1,4 @@
-﻿import { FiBriefcase, FiHome, FiKey, FiMail, FiMapPin, FiPhone, FiShield } from "react-icons/fi";
+import { FiBriefcase, FiHome, FiKey, FiMail, FiMapPin, FiPhone, FiShield } from "react-icons/fi";
 import { LuTrees } from "react-icons/lu";
 import { GoRocket } from 'react-icons/go';
 export const counterData = [
@@ -606,18 +606,3 @@ export const agencyData = [
         title: 'Real Estate Agency'
     },
 ];
-
-
-// Missing exports added for build compatibility
-export const blogData = [];
-export const recentPost = [];
-export const propertiesData = [];
-export const recentTransection = [];
-export const topProperties = [];
-export const inboxData = [];
-export const salesData = [];
-export const chatData = [];
-export const invoiceData = [];
-export const pricingData = [];
-export const contactDetails = {};
-

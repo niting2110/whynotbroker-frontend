@@ -608,16 +608,8 @@ export const agencyData = [
 ];
 
 
-// Missing exports added for build compatibility
+
+
 export const blogData = [];
 export const recentPost = [];
 export const propertiesData = [];
-export const recentTransection = [];
-export const topProperties = [];
-export const inboxData = [];
-export const salesData = [];
-export const chatData = [];
-export const invoiceData = [];
-export const pricingData = [];
-export const contactDetails = {};
-
