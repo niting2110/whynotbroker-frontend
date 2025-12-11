@@ -1,4 +1,4 @@
-﻿// Clean data.js for WhyNotBroker
+﻿// Clean data.js - WhyNotBroker
 export const reviewData = [];
 export const review = reviewData;
 export const blogData = [];
@@ -22,7 +22,7 @@ export const featureData = [
     "description": "Advanced search filters to find your perfect property."
   },
   {
-    "icon": "uil-calendar-alt",
+    "icon": "uil-calendar-alt", 
     "title": "Schedule Visits",
     "description": "Book property visits online with verified agents."
   }
@@ -32,22 +32,9 @@ export const partnerData = [];
 export const teamData = [];
 export const counterData = [];
 export const aboutData = [];
-export const conatctDetails = {};
-export const contactDetails = conatctDetails;
 export const propertiesDetails = [];
 export const listingData = [];
 export const accordianData = [];
-
-// Default export
-export default {
-  reviewData, review, blogData, recentPost, propertiesData, properties,
-  blogList, recentTransection, topProperties, inboxData, salesData,
-  chatData, invoiceData, pricingData, agencyData, agentData, featureData,
-  feature, partnerData, teamData, counterData, aboutData, conatctDetails,
-  contactDetails, propertiesDetails, listingData, accordianData
-};
-
-
 export const conatctDetails = {
   address: "123 Property Street, City, Country",
   phone: "+1 234 567 8900",
@@ -55,3 +42,11 @@ export const conatctDetails = {
   hours: "Mon-Fri: 9AM-6PM"
 };
 export const contactDetails = conatctDetails;
+
+export default {
+  reviewData, review, blogData, recentPost, propertiesData, properties,
+  blogList, recentTransection, topProperties, inboxData, salesData,
+  chatData, invoiceData, pricingData, agencyData, agentData, featureData,
+  feature, partnerData, teamData, counterData, aboutData, propertiesDetails,
+  listingData, accordianData, conatctDetails, contactDetails
+};
