@@ -611,3 +611,7 @@ export const agencyData = [
         title:'Real Estate Agency'
     },
 ]
+
+// Alias to satisfy components expecting reviewData
+export const reviewData = (typeof review !== 'undefined' ? review : (typeof reviewData !== 'undefined' ? reviewData : []));
+
