@@ -23,6 +23,7 @@
     "install": "^0.13.0",
     "jsvectormap": "^1.7.0",
     "next": "^15.4.8",
+    "next-cloudinary": "^6.17.5",
     "react": "^19.1.1",
     "react-apexcharts": "^1.7.0",
     "react-countup": "^6.5.3",
