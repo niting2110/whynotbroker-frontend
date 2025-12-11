@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 
 import Switcher from "../components/switcher";
@@ -18,7 +18,7 @@ export default function SignUpSucess(){
                             </div>
 
                             <div className="px-6 py-12 text-center">
-                                <p className="text-black font-semibold text-xl dark:text-white">Congratulations! 🎉</p> 
+                                <p className="text-black font-semibold text-xl dark:text-white">Congratulations! ðŸŽ‰</p> 
                                 <p className="text-slate-400 mt-4">Your account has been successfully created. <br/> Enjoy your journey. Thank you</p>
                                 
                                 <div className="mt-6">
@@ -27,7 +27,7 @@ export default function SignUpSucess(){
                             </div>
 
                             <div className="text-center p-6 border-t border-gray-100 dark:border-gray-700">
-                                <p className="mb-0 text-slate-400 font-medium">© {new Date().getFullYear()} Hously. Design with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0 text-slate-400 font-medium">Â© {new Date().getFullYear()} WhyNotBroker. Design with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                             </div>
                         </div>
                     </div>

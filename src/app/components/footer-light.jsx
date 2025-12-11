@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 import { HiOutlineEnvelope } from "react-icons/hi2";
 import { BsPencil } from "react-icons/bs";
@@ -46,7 +46,7 @@ export default function FooterLight() {
                                             <img src='/images/logo-light.png' alt="" className="dark:block hidden"/>
                                             <img src='/images/logo-dark.png' alt="" className="dark:hidden block"/>
                                         </Link>
-                                        <p className="mt-6 text-slate-400">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                                        <p className="mt-6 text-slate-400">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
 
                                     </div>
 
@@ -106,11 +106,11 @@ export default function FooterLight() {
                     <div className="container text-center">
                         <div className="grid md:grid-cols-2 items-center gap-6">
                             <div className="md:text-start text-center">
-                                <p className="mb-0 text-slate-400">© <script type="text/javascript" id="www-widgetapi-script" src="https://www.youtube.com/s/player/d87d581f/www-widgetapi.vflset/www-widgetapi.js"></script><script id="iframe_api" src="https://www.youtube.com/iframe_api"></script>{(new Date().getFullYear())}{" "} Hously. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0 text-slate-400">Â© <script type="text/javascript" id="www-widgetapi-script" src="https://www.youtube.com/s/player/d87d581f/www-widgetapi.vflset/www-widgetapi.js"></script><script id="iframe_api" src="https://www.youtube.com/iframe_api"></script>{(new Date().getFullYear())}{" "} WhyNotBroker. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                             </div>
 
                             <ul className="list-none md:text-end text-center">
-                                <li className="inline ms-1"><Link href="https://1.envato.market/hously-react" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-200 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><FiShoppingCart className="size-4"/></Link></li>
+                                <li className="inline ms-1"><Link href="https://1.envato.market/WhyNotBroker-react" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-200 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><FiShoppingCart className="size-4"/></Link></li>
                                 <li className="inline ms-1"><Link href="https://dribbble.com/shreethemes" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-200 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><FiDribbble className="size-4"/></Link></li>
                                 <li className="inline ms-1"><Link href="https://www.behance.net/shreethemes" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-200 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><BiLogoBehance className="align-baseline"/></Link></li>
                                 <li className="inline ms-1"><Link href="http://linkedin.com/company/shreethemes" target="_blank" className="btn btn-icon btn-sm text-gray-400 hover:text-white border border-gray-200 dark:border-gray-700 rounded-md hover:border-primary dark:hover:border-primary hover:bg-primary dark:hover:bg-primary"><FiLinkedin className="size-4"/></Link></li>
@@ -127,3 +127,4 @@ export default function FooterLight() {
     );
 
 }
+

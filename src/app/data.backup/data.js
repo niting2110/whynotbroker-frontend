@@ -1,5 +1,5 @@
 ﻿/**
- * Minimal stub data for Hously template to allow production builds.
+ * Minimal stub data for WhyNotBroker template to allow production builds.
  * Replace these with real demo data from the original template (recommended).
  */
 
@@ -68,3 +68,4 @@ export default {
   invoiceData,
   pricingData
 };
+

@@ -1,0 +1,6 @@
+﻿    title: "3 BHK Luxury Apartment",
+    location: "Banashankari 3rd Stage",
+    title: "40*30 MUDA Site for Sale",
+    location: "Ramakrishna Nagar Mysore",
+    title: "50*52 KHB Site for Sale",
+    location: "Kenchalagudu Mysore",

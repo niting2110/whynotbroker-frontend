@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 import Wrapper from "../components/wrapper";
 import PropertyImage from "../components/propertyImage";
@@ -12,7 +12,7 @@ export default function PropertyDetail(){
                         <h5 className="text-lg font-semibold">Starter Page</h5>
 
                         <ul className="tracking-[0.5px] inline-block sm:mt-0 mt-3">
-                            <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-primary dark:hover:text-white"><Link href="/index">Hously</Link></li>
+                            <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-primary dark:hover:text-white"><Link href="/index">WhyNotBroker</Link></li>
                             <li className="inline-block text-base text-slate-950 dark:text-white/70 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
                             <li className="inline-block capitalize text-[16px] font-medium text-primary dark:text-white" aria-current="page">Starter Page</li>
                         </ul>
@@ -47,7 +47,7 @@ export default function PropertyDetail(){
                                 <p className="text-slate-400 mt-4">Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p>
                             
                                 <div className="w-full leading-[0] border-0 mt-6">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" style={{border:"0"}} title="hously" className="w-full h-[500px]" allowFullScreen></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" style={{border:"0"}} title="WhyNotBroker" className="w-full h-[500px]" allowFullScreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ export default function PropertyDetail(){
 
                                     <ul className="list-none mt-4">
                                         <li className="flex justify-between items-center">
-                                            <span className="text-slate-400 text-sm">Days on Hously</span>
+                                            <span className="text-slate-400 text-sm">Days on WhyNotBroker</span>
                                             <span className="font-medium text-sm">124 Days</span>
                                         </li>
 

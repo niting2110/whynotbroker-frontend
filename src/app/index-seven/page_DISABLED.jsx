@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "../components/navbar";
@@ -44,7 +44,7 @@ export default function IndexSeven(){
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Featured Properties</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px] mt-8">
@@ -115,7 +115,7 @@ export default function IndexSeven(){
                 <div className="relative grid grid-cols-1 pb-8 text-center z-1">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Trusted by more than 10K users</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <div className="relative grid md:grid-cols-3 grid-cols-1 items-center mt-8 gap-[30px] z-1">
@@ -136,7 +136,7 @@ export default function IndexSeven(){
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Meet The Agent Team</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <TeamOne/>

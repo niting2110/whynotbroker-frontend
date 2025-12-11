@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 
 import Navbar from "../components/navbar";
@@ -23,7 +23,7 @@ export default function IndexSix(){
                     <div className="grid md:grid-cols-12 mt-10">
                         <div className="lg:col-span-8 md:col-span-6">
                             <TextAnimation/>
-                            <p className="text-white/70 text-xl max-w-xl">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                            <p className="text-white/70 text-xl max-w-xl">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
 
                             <div className="mt-4">
                                 <Link href="" className="btn bg-primary hover:bg-primary-700 text-white rounded-md mt-3">Learn More </Link>
@@ -54,7 +54,7 @@ export default function IndexSix(){
                     <div className="grid grid-cols-1 pb-8">
                         <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Listing Categories</h3>
 
-                        <p className="text-slate-400 max-w-xl">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                        <p className="text-slate-400 max-w-xl">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                     </div>
 
                     <Categories/>

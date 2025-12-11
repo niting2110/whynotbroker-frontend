@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 import { useState , useEffect, useRef }  from "react";
 import Link from "next/link";
 
@@ -37,7 +37,7 @@ export default function Email(){
                         <h5 className="text-lg font-semibold">Email</h5>
 
                         <ul className="tracking-[0.5px] inline-flex items-center sm:mt-0 mt-3">
-                            <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-primary dark:hover:text-white"><a href="index.html">Hously</a></li>
+                            <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-primary dark:hover:text-white"><a href="index.html">WhyNotBroker</a></li>
                             <li className="inline-block text-base text-slate-950 dark:text-white/70 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
                             <li className="inline-block capitalize text-[16px] font-medium text-primary dark:text-white" aria-current="page">Email</li>
                         </ul>
@@ -199,7 +199,7 @@ export default function Email(){
                                                         <Link href="#" className="font-medium hover:text-primary" data-modal-toggle="emailpreview">Sherrie Miller</Link>
                                                     </td>
                                                     <td className="text-start border-t border-gray-100 dark:border-gray-800 p-4">
-                                                        <span className="text-slate-400">Focused impactful open system 📷 😃</span>
+                                                        <span className="text-slate-400">Focused impactful open system ðŸ“· ðŸ˜ƒ</span>
                                                     </td>
                                                     <td className="text-end border-t border-gray-100 dark:border-gray-800 p-4">
                                                         <span className="text-slate-400">8hours ago</span>
@@ -282,7 +282,7 @@ export default function Email(){
                                                             <Link href="#" className="font-medium hover:text-primary" data-modal-toggle="emailpreview">Calvin Carlo</Link>
                                                         </td>
                                                         <td className="text-start border-t border-gray-100 dark:border-gray-800 p-4">
-                                                            <span className="text-slate-400">Hously Customization</span>
+                                                            <span className="text-slate-400">WhyNotBroker Customization</span>
                                                         </td>
                                                         <td className="text-end border-t border-gray-100 dark:border-gray-800 p-4">
                                                             <span className="text-slate-400">03:05PM</span>

@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 
 import Navbar from '../components/navbar';
 import Switcher from '../components/switcher';
@@ -21,7 +21,7 @@ export default function Buy(){
                 <div className="absolute inset-0 bg-slate-900/80"></div>
                 <div className="container relative">
                     <div className="grid grid-cols-1 text-center mt-10">
-                        <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Find Your Dream Home</h3>
+                        <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Find Properties in Bangalore & Mysore</h3>
                     </div>
                 </div>
             </section>
@@ -38,8 +38,8 @@ export default function Buy(){
                         <div className="subcribe-form z-1">
                             <form className="relative max-w-2xl mx-auto">
                                 <Search className="w-5 h-5 absolute top-[47%] -translate-y-1/2 start-4"></Search>
-                                <input type="name" id="search_name" name="name" className="rounded-md bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="City, Address, Zip :" />
-                                <button type="submit" className="btn bg-primary hover:bg-primary-700 text-white rounded-md">Search</button>
+                                <input type="name" id="search_name" name="name" className="rounded-md bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="Search Properties in Bangalore, Mysore..." />
+                                <button type="submit" className="btn bg-primary hover:bg-primary-700 text-white rounded-md">Find Properties</button>
                             </form>
                         </div>
                     </div>
@@ -54,3 +54,4 @@ export default function Buy(){
         </>
     )
 }
+

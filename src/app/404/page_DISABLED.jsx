@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 import Switcher from "../components/switcher";
 
@@ -24,7 +24,7 @@ export default function Errorpages() {
                                 </div>
                             </div>
                             <div className="text-center">
-                                <p className="mb-0 text-slate-400">© {(new Date().getFullYear())}{" "} Hously. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0 text-slate-400">Â© {(new Date().getFullYear())}{" "} WhyNotBroker. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                             </div>
                         </div>
                     </div>
@@ -35,3 +35,4 @@ export default function Errorpages() {
     );
 
 }
+

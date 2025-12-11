@@ -1,4 +1,4 @@
-
+﻿
 export const counterData = [
     {
         icon:'mdi mdi-currency-usd',
@@ -355,7 +355,7 @@ export const blogData = [
     {
         id:1,
         image:'/images/property/1.jpg',
-        title: 'Skills That You Can Learn In The Real Estate Market',
+        title: 'Skills That You Can Learn In The Property Portal Market',
         date:'13th Sep 2023',
         time:'5 min read',
         tag:'Residential',
@@ -363,7 +363,7 @@ export const blogData = [
     {
         id:2,
         image:'/images/property/2.jpg',
-        title: 'Learn The Truth About Real Estate Industry',
+        title: 'Learn The Truth About Property Portal Industry',
         date:'29th Nov 2023',
         time:'5 min read',
         tag:'Land',
@@ -387,7 +387,7 @@ export const blogData = [
     {
         id:5,
         image:'/images/property/5.jpg',
-        title: '10 Things Your Competitors Can Teach You About Real Estate',
+        title: '10 Things Your Competitors Can Teach You About Property Portal',
         date:'5th May 2023',
         time:'5 min read',
         tag:'Investment',
@@ -395,7 +395,7 @@ export const blogData = [
     {
         id:6,
         image:'/images/property/6.jpg',
-        title: 'Why We Love Real Estate',
+        title: 'Why We Love Property Portal',
         date:'19th June 2023',
         time:'5 min read',
         tag:'Residential',
@@ -403,7 +403,7 @@ export const blogData = [
     {
         id:7,
         image:'/images/property/7.jpg',
-        title: '110 Quick Tips About Real Estate',
+        title: '110 Quick Tips About Property Portal',
         date:'20th June 2023',
         time:'5 min read',
         tag:'Land',
@@ -411,7 +411,7 @@ export const blogData = [
     {
         id:8,
         image:'/images/property/8.jpg',
-        title: '15 Best Blogs To Follow About Real Estate',
+        title: '15 Best Blogs To Follow About Property Portal',
         date:'31st Aug 2023',
         time:'5 min read',
         tag:'Commercial',
@@ -420,17 +420,17 @@ export const blogData = [
 export const recentPost = [
     {
         image:'/images/property/6.jpg',
-        title:'10 Things You About Real Estate',
+        title:'10 Things You About Property Portal',
         date: '13th March 2023'
     },
     {
         image:'/images/property/7.jpg',
-        title:'Why We Love Real Estate',
+        title:'Why We Love Property Portal',
         date: '5th May 2023'
     },
     {
         image:'/images/property/8.jpg',
-        title:'110 Quick Tips About Real Estate',
+        title:'110 Quick Tips About Property Portal',
         date: '19th June 2023'
     },
 ]
@@ -441,7 +441,7 @@ export const accordianData = [
         desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
     },
     {
-        title:'Do I need a designer to use Hously ?',
+        title:'Do I need a designer to use WhyNotBroker ?',
         desc: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
     },
     {
@@ -485,13 +485,13 @@ export const reviewData = [
         image: '/images/client/02.jpg',
         name: 'Barbara McIntosh',
         title: 'Student',
-        desc:"There are so many things I had to do with my old software that I just don't do at all with Hously. Suspicious but I can't say I don't love it."
+        desc:"There are so many things I had to do with my old software that I just don't do at all with WhyNotBroker. Suspicious but I can't say I don't love it."
     },
     {
         image: '/images/client/03.jpg',
         name: 'Carl Oliver',
         title: 'Student',
-        desc:"The best part about Hously is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined."
+        desc:"The best part about WhyNotBroker is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined."
     },
     {
         image: '/images/client/04.jpg',
@@ -503,7 +503,7 @@ export const reviewData = [
         image: '/images/client/05.jpg',
         name: 'Barbara McIntosh',
         title: 'Student',
-        desc:"I used to have to remit tax to the EU and with Hously I somehow don't have to do that anymore. Nervous to travel there now though."
+        desc:"I used to have to remit tax to the EU and with WhyNotBroker I somehow don't have to do that anymore. Nervous to travel there now though."
     },
     {
         image: '/images/client/06.jpg',
@@ -521,13 +521,13 @@ export const reviewData = [
         image: '/images/client/08.jpg',
         name: 'Barbara McIntosh',
         title: 'Student',
-        desc:"There are so many things I had to do with my old software that I just don't do at all with Hously. Suspicious but I can't say I don't love it."
+        desc:"There are so many things I had to do with my old software that I just don't do at all with WhyNotBroker. Suspicious but I can't say I don't love it."
     },
     {
         image: '/images/client/09.jpg',
         name: 'Carl Oliver',
         title: 'Student',
-        desc:"The best part about Hously is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined."
+        desc:"The best part about WhyNotBroker is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined."
     },
     {
         image: '/images/client/10.jpg',
@@ -539,7 +539,7 @@ export const reviewData = [
         image: '/images/client/11.jpg',
         name: 'Barbara McIntosh',
         title: 'Student',
-        desc:"I used to have to remit tax to the EU and with Hously I somehow don't have to do that anymore. Nervous to travel there now though"
+        desc:"I used to have to remit tax to the EU and with WhyNotBroker I somehow don't have to do that anymore. Nervous to travel there now though"
     },
     {
         image: '/images/client/12.jpg',
@@ -557,13 +557,13 @@ export const reviewData = [
         image: '/images/client/01.jpg',
         name: 'Barbara McIntosh',
         title: 'Student',
-        desc:"There are so many things I had to do with my old software that I just don't do at all with Hously. Suspicious but I can't say I don't love it."
+        desc:"There are so many things I had to do with my old software that I just don't do at all with WhyNotBroker. Suspicious but I can't say I don't love it."
     },
     {
         image: '/images/client/02.jpg',
         name: 'Carl Oliver',
         title: 'Student',
-        desc:"The best part about Hously is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined."
+        desc:"The best part about WhyNotBroker is every time I pay my employees, my bank balance doesn't go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined."
     },
 ]
 
@@ -646,25 +646,25 @@ export const inboxData = [
     {
         star : false,
         name : 'Calvin Carlo',
-        subject : 'Hously Customization',
+        subject : 'WhyNotBroker Customization',
         time : '03:05PM'
     },
     {
         star : false,
         name : 'Madeleine Jackson',
-        subject : 'User-friendly value-added application 😊',
+        subject : 'User-friendly value-added application ðŸ˜Š',
         time : '12:00PM'
     },
     {
         star : true,
         name : 'Sherrie Miller',
-        subject : 'Focused impactful open system 📷 😃',
+        subject : 'Focused impactful open system ðŸ“· ðŸ˜ƒ',
         time : '8hours ago'
     },
     {
         star : false,
         name : 'John Belgrave',
-        subject : 'Profound systemic alliance 🎉 🎊',
+        subject : 'Profound systemic alliance ðŸŽ‰ ðŸŽŠ',
         time : '20hours ago'
     },
     {

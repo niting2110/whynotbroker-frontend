@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Image from "next/image";
 
 import Navbar from "../components/navbar";
@@ -21,7 +21,7 @@ import Switcher from "../components/switcher";
                     <div className="grid md:grid-cols-2 gap-[30px] mt-10 items-center">
                         <div className="md:text-start text-center">
                             <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">Find Your <span className="text-primary">Perfect <br /> & Wonderful</span> Home</h1>
-                            <p className="text-slate-400 text-xl max-w-xl">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                            <p className="text-slate-400 text-xl max-w-xl">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                             <SearchTab/>
                         </div>
 

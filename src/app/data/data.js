@@ -1,4 +1,31 @@
-﻿// Clean WhyNotBroker Data
+﻿// WhyNotBroker Property Data
+export const accordianData = [
+  { title: 'How to buy', content: 'Step-by-step buying guide' },
+  { title: 'How to sell', content: 'Step-by-step selling guide' }
+];
+
+export const reviewData = [
+  { id: 1, name: 'Ramesh K', comment: 'Smooth purchase, great agent', rating: 5 },
+  { id: 2, name: 'Sita P', comment: 'Verified listing and fast support', rating: 5 }
+];
+export const review = reviewData;
+export const review_list = reviewData;
+
+export const inboxData = [ { id: 1, from: 'support@whynotbroker.com', subject: 'Welcome', date: '2025-01-01' }];
+
+export const salesData = [ { id: 1, label: 'Jan', value: 10 }, { id: 2, label: 'Feb', value: 20 } ];
+
+export const recentTransection = [ { id: 1, title: 'Booking', amount: 5000 } ];
+
+export const topProperties = [];
+
+export const blogData = [ { id: 1, title: 'Market Trends', slug: 'market-trends' } ];
+export const recentPost = [ { id: 1, title: 'Recent Post' } ];
+export const blogList = blogData;
+
+export const chatData = [ { id: 1, user: 'Agent', message: 'Hello!' } ];
+
+// Sample propertiesData - add more to reach your 50k goal
 export const propertiesData = [
   {
     id: 1,
@@ -24,7 +51,7 @@ export const propertiesData = [
     sqft: "1200 sqft",
     type: "Plot",
     status: "For Sale",
-    slug: "40*30-MUDA-Site-for-Sale-Ramakrishna"
+    slug: "40x30-muda-site-ramakrishna"
   },
   {
     id: 3,
@@ -37,42 +64,32 @@ export const propertiesData = [
     sqft: "2600 sqft",
     type: "Residential",
     status: "For Sale",
-    slug: "50*52-KHB-Site-for-Sale-Kenchalagudu"
+    slug: "50x52-khb-site-kenchalagudu"
   }
 ];
 
 export const properties = propertiesData;
-export const topProperties = propertiesData.slice(0, 3);
+export const propertiesDetails = propertiesData;
+export const listingData = propertiesData;
 
-export const agentData = [];
+export const invoiceData = [ { id: 1, invoiceNo: 'INV-001', amount: 1000 } ];
+
+export const pricingData = [ { plan: 'Basic', price: 'Free' }, { plan: 'Pro', price: '₹999/month' } ];
+
 export const agencyData = [];
+export const agentData = [];
 export const featureData = [];
 export const feature = featureData;
-export const reviewData = [];
-export const review = reviewData;
-export const blogData = [];
-export const recentPost = [];
-export const blogList = [];
-export const propertiesDetails = [];
-export const recentTransection = [];
-export const inboxData = [];
-export const salesData = [];
-export const chatData = [];
-export const invoiceData = [];
-export const pricingData = [];
 export const partnerData = [];
 export const teamData = [];
-export const counterData = [];
-export const aboutData = {};
-export const listingData = [];
-export const accordianData = [];
-export const conatctDetails = {};
+export const counterData = [ { label: "Properties Listed", value: "500+" }, { label: "Verified Agents", value: "80+" } ];
+export const aboutData = { title: "WhyNotBroker - Karnataka's Property Portal" };
+export const conatctDetails = { email: "support@whynotbroker.com", address: "WhyNotBroker Headquarters, Bangalore" };
 export const contactDetails = conatctDetails;
 
 export default {
-  propertiesData, properties, topProperties, agentData, agencyData,
-  featureData, feature, reviewData, review, blogData, recentPost,
-  blogList, propertiesDetails, recentTransection, inboxData, salesData,
-  chatData, invoiceData, pricingData, partnerData, teamData, counterData,
-  aboutData, listingData, accordianData, conatctDetails, contactDetails
+  accordianData, reviewData, review, inboxData, salesData, recentTransection, topProperties,
+  blogData, recentPost, blogList, chatData, propertiesData, properties, propertiesDetails, listingData,
+  invoiceData, pricingData, agencyData, agentData, featureData, feature, partnerData, teamData,
+  counterData, aboutData, conatctDetails, contactDetails, review_list
 };

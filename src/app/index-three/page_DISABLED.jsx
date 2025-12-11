@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -31,8 +31,8 @@ export default function IndexThree(){
                     <div className="subcribe-form z-1">
                         <form className="relative max-w-2xl mx-auto">
                             <FiSearch className="w-5 h-5 absolute top-[47%] -translate-y-1/2 start-4" />
-                            <input type="name" id="search_name" name="name" className="rounded-md bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="City, Address, Zip :" />
-                            <button type="submit" className="btn bg-primary hover:bg-primary-700 text-white rounded-md">Search</button>
+                            <input type="name" id="search_name" name="name" className="rounded-md bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="Search Properties in Bangalore, Mysore..." />
+                            <button type="submit" className="btn bg-primary hover:bg-primary-700 text-white rounded-md">Find Properties</button>
                         </form>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ export default function IndexThree(){
                     <div className="relative grid grid-cols-1 pb-8 text-center z-1">
                         <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Trusted by more than 10K users</h3>
 
-                        <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                        <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                     </div>
 
                     <div className="relative grid md:grid-cols-3 grid-cols-1 items-center mt-8 gap-[30px] z-1">

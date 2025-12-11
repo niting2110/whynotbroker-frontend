@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 import React, { useState } from "react";
 import dynamic from "next/dynamic";
 const Select = dynamic(()=>import('react-select'),{ssr:false})
@@ -57,7 +57,7 @@ export default function IndexNine() {
                 <div className="grid grid-cols-1 items-center mt-10">
                     <div className="md:text-start text-center">
                         <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">We will find a perfect <br/> home for you</h1>
-                        <p className="text-xl max-w-xl">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                        <p className="text-xl max-w-xl">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
 
                         <div className="relative flex mt-8">
                             <div className="lg:w-5/6 w-full">
@@ -217,7 +217,7 @@ export default function IndexNine() {
                 <div className="grid grid-cols-1 pb-8">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Listing Categories</h3>
 
-                    <p className="text-slate-400 max-w-xl">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <Categories/>
@@ -227,7 +227,7 @@ export default function IndexNine() {
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Featured Properties</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px]">
@@ -298,7 +298,7 @@ export default function IndexNine() {
             <div className="container relative lg:mt-24 mt-16">
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Meet The Agent Team</h3>
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <TeamOne/>

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -17,7 +17,7 @@ export default function Chat(){
                         <h5 className="text-lg font-semibold">Chatbox</h5>
 
                         <ul className="tracking-[0.5px] inline-flex items-center sm:mt-0 mt-3">
-                            <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-primary dark:hover:text-white"><Link href="/">Hously</Link></li>
+                            <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-primary dark:hover:text-white"><Link href="/">WhyNotBroker</Link></li>
                             <li className="inline-block text-base text-slate-950 dark:text-white/70 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
                             <li className="inline-block capitalize text-[16px] font-medium text-primary dark:text-white" aria-current="page">Chat</li>
                         </ul>
@@ -197,7 +197,7 @@ export default function Chat(){
                                                     </div>
                                                         
                                                     <div className="me-2 max-w-lg">
-                                                        <p className="bg-white dark:bg-slate-900 text-slate-400 text-[16px] shadow-sm shadow-gray-200 dark:shadow-gray-700 px-3 py-2 rounded mb-1">Sure please check below link to find more useful information <Link href="https://shreethemes.in/hously/" target="_blank" className="text-primary">https://shreethemes.in/hously/</Link></p>
+                                                        <p className="bg-white dark:bg-slate-900 text-slate-400 text-[16px] shadow-sm shadow-gray-200 dark:shadow-gray-700 px-3 py-2 rounded mb-1">Sure please check below link to find more useful information <Link href="https://shreethemes.in/WhyNotBroker/" target="_blank" className="text-primary">https://shreethemes.in/WhyNotBroker/</Link></p>
                                                         <span className="text-slate-400 text-sm"><i className="mdi mdi-clock-outline me-1"></i>29 min ago</span>
                                                     </div>
                                                 </div>
@@ -213,7 +213,7 @@ export default function Chat(){
                                                     </div>
                                                         
                                                     <div className="ms-2 max-w-lg">
-                                                        <p className="bg-white dark:bg-slate-900 text-slate-400 text-[16px] shadow-sm shadow-gray-200 dark:shadow-gray-700 px-3 py-2 rounded mb-1">Thank you 😊</p>
+                                                        <p className="bg-white dark:bg-slate-900 text-slate-400 text-[16px] shadow-sm shadow-gray-200 dark:shadow-gray-700 px-3 py-2 rounded mb-1">Thank you ðŸ˜Š</p>
                                                         <span className="text-slate-400 text-sm"><i className="mdi mdi-clock-outline me-1"></i>26 min ago</span>
                                                     </div>
                                                 </div>
@@ -278,3 +278,4 @@ export default function Chat(){
         </Wrapper>
     )
 }
+

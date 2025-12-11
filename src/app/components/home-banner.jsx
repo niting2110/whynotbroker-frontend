@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import React from 'react'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
@@ -62,7 +62,7 @@ export default function HomeBanner() {
 
                 <div className="md:col-span-3">
                     <div className="md:text-end text-center">
-                        <p className="text-slate-400 text-xl max-w-xl">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                        <p className="text-slate-400 text-xl max-w-xl">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
 
                         <div className="mt-4">
                             <ul className="list-none relative md:mt-20">
@@ -95,3 +95,4 @@ export default function HomeBanner() {
     </>
   )
 }
+

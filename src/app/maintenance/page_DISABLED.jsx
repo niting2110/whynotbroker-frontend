@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Image from "next/image";
 
 import CountDownTwo from "../components/count-down-two";
@@ -15,7 +15,7 @@ export default function Maintenance(){
                 <div className="grid grid-cols-1">
                     <Image src='/images/logo-icon-64.png' width={64} height={64} className="mx-auto" alt=""/>
                     <h1 className="text-white mb-6 mt-8 md:text-5xl text-3xl font-bold">We Are Back Soon...</h1>
-                    <p className="text-white/70 text-lg max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-white/70 text-lg max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <div className="grid grid-cols-1 mt-10">

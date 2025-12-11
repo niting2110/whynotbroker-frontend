@@ -1,4 +1,4 @@
-﻿"use client"; // This is a client component ðŸ‘ˆðŸ½
+"use client"; // This is a client component 👈🏽
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -314,4 +314,3 @@ export default function Navbar(props) {
     );
 
 }
-

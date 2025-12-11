@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from 'next/image'
@@ -129,7 +129,7 @@ export default function Sidebar(){
 
                                 <span className="text-slate-400 mt-3 mb-5 block">Get one month free and subscribe to pro</span>
 
-                                <Link href="https://1.envato.market/hously-react" target="_blank" className="py-2 px-5 !block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-gray-500/5 hover:bg-gray-500 border-gray-500/10 hover:border-gray-500 text-white rounded-md">Subscribe</Link>
+                                <Link href="https://1.envato.market/WhyNotBroker-react" target="_blank" className="py-2 px-5 !block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-gray-500/5 hover:bg-gray-500 border-gray-500/10 hover:border-gray-500 text-white rounded-md">Subscribe</Link>
                             </span>
                 
                             <span className="mdi mdi-home-city-outline text-[160px] absolute top-1/2 -translate-y-1/2 start-0 end-0 mx-auto text-center opacity-[0.02] text-white z-0"></span>

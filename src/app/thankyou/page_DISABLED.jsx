@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 
 import Switcher from "../components/switcher";
@@ -16,7 +16,7 @@ export default function ThankYou(){
                             <FiThumbsUp className="h-10 w-10"/>
                         </div>
                         <h1 className="mt-6 mb-8 md:text-5xl text-3xl font-bold">Thank You</h1>
-                        <p className="text-slate-400 max-w-xl mx-auto">We are a huge marketplace dedicated to connecting great artists of all Hously with their fans and unique token collectors!</p>
+                        <p className="text-slate-400 max-w-xl mx-auto">We are a huge marketplace dedicated to connecting great artists of all WhyNotBroker with their fans and unique token collectors!</p>
                         
                         <div className="mt-6">
                             <Link href="/" className="btn bg-primary/5 hover:bg-primary border-primary/10 hover:border-primary text-primary hover:text-white rounded-md">Back to Home</Link>

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 import { FiPhone } from "react-icons/fi";
 
@@ -9,7 +9,7 @@ export default function GetInTuch(){
         <div className="grid grid-cols-1 text-center">
             <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">Have Question ? Get in touch!</h3>
 
-            <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+            <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
 
             <div className="mt-6">
                 <Link href="/contact" className="btn bg-primary hover:bg-primary-700 text-white rounded-md"><FiPhone className="align-middle me-2"/> Contact us</Link>

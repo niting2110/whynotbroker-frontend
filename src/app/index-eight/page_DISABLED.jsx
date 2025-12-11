@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import Navbar from '../components/navbar'
 import { FiSearch, FiHexagon, FiArrowRight} from 'react-icons/fi'
 import Categories from '../components/categories'
@@ -22,12 +22,12 @@ export default function Page() {
                 <div className="grid grid-cols-1 items-center mt-10">
                     <div className="text-center">
                         <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">Explore Listings and <br/> Make Move Today</h1>
-                        <p className="text-slate-400 text-xl max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                        <p className="text-slate-400 text-xl max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
 
                         <div className="subcribe-form z-1 max-w-2xl mx-auto mt-8">
                             <form className="relative">
                                 <FiSearch className="size-5 absolute top-[47%] -translate-y-1/2 start-4"></FiSearch>
-                                <input type="name" id="search_name" name="name" className="rounded-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="City, Address, Zip :"/>
+                                <input type="name" id="search_name" name="name" className="rounded-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="Search Properties in Bangalore, Mysore..."/>
                                 <button type="submit" className="btn bg-primary hover:bg-primary-700 text-white !rounded-full">Find Out</button>
                             </form>
                         </div>
@@ -45,7 +45,7 @@ export default function Page() {
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">What We Do?</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
@@ -99,7 +99,7 @@ export default function Page() {
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Meet The Agent Team</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <TeamOne/>
@@ -112,3 +112,4 @@ export default function Page() {
     </>
   )
 }
+

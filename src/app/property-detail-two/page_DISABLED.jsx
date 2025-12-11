@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
@@ -100,7 +100,7 @@ export default function PropertyDetailTwo() {
     
                                     <ul className="list-none mt-4">
                                         <li className="flex justify-between items-center">
-                                            <span className="text-slate-400 text-sm">Days on Hously</span>
+                                            <span className="text-slate-400 text-sm">Days on WhyNotBroker</span>
                                             <span className="font-medium text-sm">124 Days</span>
                                         </li>
     

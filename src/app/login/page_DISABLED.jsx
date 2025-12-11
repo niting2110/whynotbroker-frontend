@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -51,7 +51,7 @@ export default function Login(){
                         </div>
 
                         <div className="px-6 py-2 bg-slate-50 dark:bg-slate-800 text-center">
-                            <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Hously. Designed by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                            <p className="mb-0 text-slate-400">Â© {new Date().getFullYear()} WhyNotBroker. Designed by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                         </div>
                     </div>
                 </div>

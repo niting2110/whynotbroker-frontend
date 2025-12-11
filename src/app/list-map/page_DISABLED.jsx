@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import Image from 'next/image';
 import { Linkedin, Facebook, Twitter, Instagram } from 'react-feather';
 
@@ -118,7 +118,7 @@ export default function ListMap(){
                                     <div className="container text-center px-6">
                                         <div className="grid md:grid-cols-2 items-center gap-6">
                                             <div className="md:text-start text-center">
-                                                <p className="mb-0 text-gray-300">© {(new Date().getFullYear())}{" "} Hously. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link rel="noreferrer" href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                                <p className="mb-0 text-gray-300">Â© {(new Date().getFullYear())}{" "} WhyNotBroker. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link rel="noreferrer" href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                                             </div>
 
                                             <ul className="list-none md:text-end text-center">

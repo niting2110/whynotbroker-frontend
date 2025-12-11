@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import Link from 'next/link'
 import { FiLink, FiMail, FiMapPin, FiPhone } from 'react-icons/fi'
 import Wrapper from '../components/wrapper'
@@ -13,7 +13,7 @@ export default function Invoice() {
                         <h5 className="text-lg font-semibold">Invoice</h5>
 
                         <ul className="tracking-[0.5px] inline-flex items-center sm:mt-0 mt-3">
-                            <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-primary dark:hover:text-white"><Link href="/">Hously</Link></li>
+                            <li className="inline-block capitalize text-[16px] font-medium duration-500 dark:text-white/70 hover:text-primary dark:hover:text-white"><Link href="/">WhyNotBroker</Link></li>
                             <li className="inline-block text-base text-slate-950 dark:text-white/70 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right"></i></li>
                             <li className="inline-block capitalize text-[16px] font-medium text-primary dark:text-white" aria-current="page">Invoice</li>
                         </ul>
@@ -30,7 +30,7 @@ export default function Invoice() {
                                                 <img src='/images/logo-light.png' className="hidden dark:block" alt=""/>
                                                 <div className="flex mt-4">
                                                     <FiLink className="size-4 me-3 mt-1"/>
-                                                    <Link href="#" target="_blank" className="text-primary dark:text-white font-medium">www.hously.home</Link>
+                                                    <Link href="#" target="_blank" className="text-primary dark:text-white font-medium">www.WhyNotBroker.home</Link>
                                                 </div>
                                             </div>
         
@@ -45,7 +45,7 @@ export default function Invoice() {
                                                     
                                                     <li className="flex mt-3">
                                                         <FiMail className="size-4 me-3 mt-1"/>
-                                                        <a href="mailto:contact@example.com" className="text-slate-400">info@hously.com</a>
+                                                        <a href="mailto:contact@example.com" className="text-slate-400">info@WhyNotBroker.com</a>
                                                     </li>
                                                     
                                                     <li className="flex mt-3">

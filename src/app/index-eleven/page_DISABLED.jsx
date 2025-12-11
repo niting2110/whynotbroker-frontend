@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import Navbar from '../components/navbar'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -25,7 +25,7 @@ export default function IndexEleven() {
                     <div className="text-center">
                         <h1 className="font-bold lg:leading-normal leading-normal text-5xl lg:text-7xl mb-6">Buy, Sell & Rent.</h1>
 
-                        <p className="text-xl max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                        <p className="text-xl max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
 
                         <div className="mt-6">
                             <ul className="list-none relative">
@@ -40,7 +40,7 @@ export default function IndexEleven() {
                         <div className="subcribe-form z-1 max-w-xl mx-auto mt-8">
                             <form className="relative">
                                 <FiSearch className="size-5 absolute top-3.5 start-4"/>
-                                <input type="name" id="search_name" name="name" className="rounded-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="City, Address, Zip :"/>
+                                <input type="name" id="search_name" name="name" className="rounded-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="Search Properties in Bangalore, Mysore..."/>
                                 <button type="submit" className="btn bg-primary hover:bg-primary-dark border-primary dark:border-primary !text-white !rounded-full">Find Out</button>
                             </form>
                         </div>
@@ -54,7 +54,7 @@ export default function IndexEleven() {
                 <div className="grid grid-cols-1 pb-8">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Featured Properties</h3>
 
-                    <p className="text-slate-400 max-w-xl">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <FeatureProperty/>
@@ -64,7 +64,7 @@ export default function IndexEleven() {
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Why Choose Us?</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <AboutThree/>
@@ -80,7 +80,7 @@ export default function IndexEleven() {
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Meet The Agent Team</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <TeamOne/>
@@ -92,7 +92,7 @@ export default function IndexEleven() {
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Latest Blogs & News</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <BlogOne/>
@@ -107,3 +107,4 @@ export default function IndexEleven() {
     </>
   )
 }
+

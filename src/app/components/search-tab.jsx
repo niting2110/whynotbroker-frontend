@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import React,{useState} from "react";
 import { FiSearch } from "react-icons/fi";
 
@@ -30,7 +30,7 @@ export default function SearchTab(){
                             <div className="subcribe-form z-1">
                                 <form className="relative max-w-2xl mx-auto">
                                     <FiSearch className="w-5 h-5 absolute top-[47%] -translate-y-1/2 start-4 me-2" />
-                                    <input type="name" id="search_name" name="name" className="!rounded-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="City, Address, Zip :" />
+                                    <input type="name" id="search_name" name="name" className="!rounded-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="Search Properties in Bangalore, Mysore..." />
                                     <button type="submit" className="btn bg-primary hover:bg-primary-700 text-white !rounded-full">Find Out</button>
                                 </form>
                             </div>
@@ -41,7 +41,7 @@ export default function SearchTab(){
                             <div className="subcribe-form z-1">
                                 <form className="relative max-w-2xl mx-auto">
                                     <FiSearch className="w-5 h-5 absolute top-[47%] -translate-y-1/2 start-4 me-2" />
-                                    <input type="name" id="search_name" name="name" className="!rounded-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="City, Address, Zip :" />
+                                    <input type="name" id="search_name" name="name" className="!rounded-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="Search Properties in Bangalore, Mysore..." />
                                     <button type="submit" className="btn bg-primary hover:bg-primary-700 text-white !rounded-full">Find Out</button>
                                 </form>
                             </div>
@@ -52,7 +52,7 @@ export default function SearchTab(){
                             <div className="subcribe-form z-1">
                                 <form className="relative max-w-2xl mx-auto">
                                     <FiSearch className="w-5 h-5 absolute top-[47%] -translate-y-1/2 start-4 me-2" />
-                                    <input type="name" id="search_name" name="name" className="!rounded-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="City, Address, Zip :" />
+                                    <input type="name" id="search_name" name="name" className="!rounded-full bg-white dark:bg-slate-900 shadow-sm dark:shadow-gray-700 !ps-12" placeholder="Search Properties in Bangalore, Mysore..." />
                                     <button type="submit" className="btn bg-primary hover:bg-primary-700 text-white !rounded-full">Find Out</button>
                                 </form>
                             </div>

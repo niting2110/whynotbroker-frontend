@@ -1,4 +1,4 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import Image from 'next/image';
 
 import Navbar from '../components/navbar'
@@ -109,7 +109,7 @@ export default function BlogsideBar(){
                                     <Image src="/images/property/6.jpg" className="h-16 rounded-md shadow-sm shadow-gray-200 dark:shadow-gray-800" alt="" width={96} height={56} />
 
                                     <div className="ms-3">
-                                        <Link href="#" className="font-medium hover:text-primary">10 Things You About Real Estate</Link>
+                                        <Link href="#" className="font-medium hover:text-primary">10 Things You About Property Portal</Link>
                                         <p className="text-sm text-slate-400">2nd March 2023</p>
                                     </div>
                                 </div>
@@ -118,7 +118,7 @@ export default function BlogsideBar(){
                                     <Image src="/images/property/3.jpg" className="h-16 rounded-md shadow-sm shadow-gray-200 dark:shadow-gray-800" alt="" width={96} height={56} />
 
                                     <div className="ms-3">
-                                        <Link href="#" className="font-medium hover:text-primary">Why We Love Real Estate</Link>
+                                        <Link href="#" className="font-medium hover:text-primary">Why We Love Property Portal</Link>
                                         <p className="text-sm text-slate-400">2nd March 2023</p>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@ export default function BlogsideBar(){
                                     <Image src="/images/property/5.jpg" className="h-16 rounded-md shadow-sm shadow-gray-200 dark:shadow-gray-800" alt="" width={96} height={56} />
 
                                     <div className="ms-3">
-                                        <Link href="#" className="font-medium hover:text-primary">110 Quick Tips About Real Estate</Link>
+                                        <Link href="#" className="font-medium hover:text-primary">110 Quick Tips About Property Portal</Link>
                                         <p className="text-sm text-slate-400">2nd March 2023</p>
                                     </div>
                                 </div>

@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -26,7 +26,7 @@ export default function AboutTwo() {
                     <div className="md:col-span-7">
                         <div className="lg:ms-4">
                             <h4 className="mb-6 md:text-3xl text-2xl lg:leading-normal leading-normal font-semibold">Efficiency. Transparency. <br /> Control.</h4>
-                            <p className="text-slate-400 max-w-xl">Hously developed a platform for the Real Estate marketplace that allows buyers and sellers to easily execute a transaction on their own. The platform drives efficiency, cost transparency and control into the hands of the consumers. Hously is Real Estate Redefined.</p>
+                            <p className="text-slate-400 max-w-xl">WhyNotBroker developed a platform for the Property Portal marketplace that allows buyers and sellers to easily execute a transaction on their own. The platform drives efficiency, cost transparency and control into the hands of the consumers. WhyNotBroker is Property Portal Redefined.</p>
 
                             <div className="mt-4">
                                 <Link href="#" className="btn bg-primary hover:bg-primary-700 text-white rounded-md mt-3">Learn More </Link>
@@ -58,3 +58,4 @@ export default function AboutTwo() {
     );
 
 }
+

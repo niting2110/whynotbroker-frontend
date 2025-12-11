@@ -1,4 +1,4 @@
-import React from 'react'
+﻿import React from 'react'
 import Navbar from '../components/navbar'
 import Link from 'next/link'
 import FormTab from '../components/form-tab'
@@ -25,7 +25,7 @@ export default function IndexTwelve() {
                     <div className="lg:col-span-7 md:col-span-6">
                         <h1 className="font-bold lg:leading-normal leading-normal text-white text-5xl lg:text-7xl mb-4">Discover Your Dream Home</h1>
 
-                        <p className="text-xl max-w-xl text-white/70">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                        <p className="text-xl max-w-xl text-white/70">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
 
                         <div className="mt-8">
                             <Link href="#" className="btn bg-primary hover:bg-primary-dark border border-primary text-white rounded-md mx-1">Explore More</Link>
@@ -43,7 +43,7 @@ export default function IndexTwelve() {
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Why Choose Us?</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <AboutThree/>
@@ -57,7 +57,7 @@ export default function IndexTwelve() {
                 <div className="grid grid-cols-1 pb-8">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Featured Properties</h3>
 
-                    <p className="text-slate-400 max-w-xl">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <FeatureProperty/>
@@ -69,7 +69,7 @@ export default function IndexTwelve() {
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Meet The Agent Team</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <TeamOne/>
@@ -83,7 +83,7 @@ export default function IndexTwelve() {
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Latest Blogs & News</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
                 </div>
 
                 <BlogOne/>
@@ -97,3 +97,4 @@ export default function IndexTwelve() {
     </>
   )
 }
+
