@@ -1,10 +1,10 @@
-﻿// Complete data.js for WhyNotBroker.com
+// Complete data.js for WhyNotBroker.com
 export const propertiesData = [
   {
     id: 1,
     title: "3 BHK Luxury Apartment",
     location: "Banashankari 3rd Stage",
-    price: "₹1.09 Crore",
+    price: "?1.09 Crore",
     image: "/images/property/placeholder.jpg",
     beds: 2,
     baths: 2,
@@ -17,7 +17,7 @@ export const propertiesData = [
     id: 2,
     title: "40*30 MUDA Site for Sale",
     location: "Ramakrishna Nagar Mysore",
-    price: "₹1.3 Crore",
+    price: "?1.3 Crore",
     image: "/images/property/placeholder.jpg",
     beds: 0,
     baths: 0,
@@ -30,7 +30,7 @@ export const propertiesData = [
     id: 3,
     title: "50*52 KHB Site for Sale",
     location: "Kenchalagudu Mysore",
-    price: "₹1.03 Crore",
+    price: "?1.03 Crore",
     image: "/images/property/placeholder.jpg",
     beds: 0,
     baths: 0,
@@ -43,7 +43,7 @@ export const propertiesData = [
     id: 4,
     title: "2 BHK Premium Flat",
     location: "Jayanagar, Bangalore",
-    price: "₹95 Lakh",
+    price: "?95 Lakh",
     image: "/images/property/placeholder.jpg",
     beds: 2,
     baths: 2,
@@ -56,7 +56,7 @@ export const propertiesData = [
     id: 5,
     title: "80*60 Residential Plot",
     location: "Whitefield, Bangalore",
-    price: "₹2.4 Crore",
+    price: "?2.4 Crore",
     image: "/images/property/placeholder.jpg",
     beds: 0,
     baths: 0,
@@ -133,32 +133,32 @@ export const agencyData = [
 
 export const featureData = [
   {
-    icon: "uil uil-search",
+    icon: "uil-search",
     title: "Smart Property Search",
     description: "Advanced filters by location, price, type to find perfect property"
   },
   {
-    icon: "uil uil-shield-check",
+    icon: "uil-shield-check",
     title: "Verified Listings",
     description: "Every property is physically verified for authenticity"
   },
   {
-    icon: "uil uil-calendar-alt",
+    icon: "uil-calendar-alt",
     title: "Site Visits Booking",
     description: "Schedule property visits with verified owners/agents"
   },
   {
-    icon: "uil uil-file-contract",
+    icon: "uil-file-contract",
     title: "Legal Assistance",
     description: "End-to-end legal documentation and verification support"
   },
   {
-    icon: "uil uil-chart-line",
+    icon: "uil-chart-line",
     title: "Price Analytics",
     description: "Market trends and price analysis for informed decisions"
   },
   {
-    icon: "uil uil-users-alt",
+    icon: "uil-users-alt",
     title: "Expert Agents",
     description: "Network of certified property advisors across Karnataka"
   }
@@ -224,9 +224,9 @@ export const propertiesDetails = propertiesData.map(p => ({
 }));
 
 export const recentTransection = [
-  { id: 1, property: "2 BHK in Jayanagar", price: "₹92 Lakh", date: "2024-11-18", type: "Sold" },
-  { id: 2, property: "Plot in Whitefield", price: "₹2.3 Crore", date: "2024-11-15", type: "Registered" },
-  { id: 3, property: "3 BHK in Indiranagar", price: "₹1.8 Crore", date: "2024-11-10", type: "Agreement" }
+  { id: 1, property: "2 BHK in Jayanagar", price: "?92 Lakh", date: "2024-11-18", type: "Sold" },
+  { id: 2, property: "Plot in Whitefield", price: "?2.3 Crore", date: "2024-11-15", type: "Registered" },
+  { id: 3, property: "3 BHK in Indiranagar", price: "?1.8 Crore", date: "2024-11-10", type: "Agreement" }
 ];
 
 export const inboxData = [];
@@ -237,10 +237,10 @@ export const pricingData = [];
 export const partnerData = [];
 export const teamData = [];
 export const counterData = [
-  { title: "Properties Listed", value: "250+", icon: "uil uil-home" },
-  { title: "Happy Clients", value: "180+", icon: "uil uil-smile" },
-  { title: "Cities Covered", value: "12+", icon: "uil uil-map-marker" },
-  { title: "Expert Agents", value: "45+", icon: "uil uil-users-alt" }
+  { title: "Properties Listed", value: "250+", icon: "uil-home" },
+  { title: "Happy Clients", value: "180+", icon: "uil-smile" },
+  { title: "Cities Covered", value: "12+", icon: "uil-map-marker" },
+  { title: "Expert Agents", value: "45+", icon: "uil-users-alt" }
 ];
 
 export const aboutData = {

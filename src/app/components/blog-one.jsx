@@ -22,14 +22,14 @@ export default function BlogOne() {
                         <div className="relative p-6">
                             <div className="">
                                 <div className="flex justify-between mb-4">
-                                    <span className="text-slate-400 text-sm inline-flex"><FiCalendar className="uil uil-calendar-alt text-slate-900 dark:text-white me-2"/>{item.date}</span>
-                                    <span className="text-slate-400 text-sm inline-flex ms-3"><FiClock className="uil uil-clock text-slate-900 dark:text-white me-2"/>5 min read</span>
+                                    <span className="text-slate-400 text-sm inline-flex"><FiCalendar className="uil-calendar-alt text-slate-900 dark:text-white me-2"/>{item.date}</span>
+                                    <span className="text-slate-400 text-sm inline-flex ms-3"><FiClock className="uil-clock text-slate-900 dark:text-white me-2"/>5 min read</span>
                                 </div>
 
                                 <Link href="/blog-detail" className="title text-xl font-medium hover:text-primary duration-500 ease-in-out">{item.title}</Link>
                                 
                                 <div className="mt-3">
-                                    <Link href="/blog-detail" className="btn btn-link hover:text-primary after:bg-primary duration-500 ease-in-out">Read More <FiArrowRight className="uil uil-arrow-right"/></Link>
+                                    <Link href="/blog-detail" className="btn btn-link hover:text-primary after:bg-primary duration-500 ease-in-out">Read More <FiArrowRight className="uil-arrow-right"/></Link>
                                 </div>
                             </div>
                         </div>
@@ -40,3 +40,4 @@ export default function BlogOne() {
         </div>
   )
 }
+

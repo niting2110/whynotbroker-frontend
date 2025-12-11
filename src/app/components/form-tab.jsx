@@ -61,7 +61,7 @@ export default function FormTab() {
                                     <div>
                                         <label htmlFor="buy-properties" className="form-label font-medium text-slate-900 dark:text-white">Select Categories:</label>
                                         <div className="filter-search-form relative !rounded-md mt-2">
-                                            <RxHome className="uil uil-estate absolute top-4.25 start-4 text-xl z-1 text-primary"></RxHome>
+                                            <RxHome className="uil-estate absolute top-4.25 start-4 text-xl z-1 text-primary"></RxHome>
                                             <Select className="form-input filter-input-box !bg-gray-50 dark:!bg-slate-800 border-0" options={Houses} />
                                         </div>
                                     </div>
@@ -99,7 +99,7 @@ export default function FormTab() {
                                     <div>
                                         <label htmlFor="buy-properties" className="form-label font-medium text-slate-900 dark:text-white">Select Categories:</label>
                                         <div className="filter-search-form relative !rounded-md mt-2">
-                                            <RxHome className="uil uil-estate absolute top-4.25 start-4 text-xl z-1 text-primary"></RxHome>
+                                            <RxHome className="uil-estate absolute top-4.25 start-4 text-xl z-1 text-primary"></RxHome>
                                             <Select className="form-input filter-input-box !bg-gray-50 dark:!bg-slate-800 border-0" options={Houses} />
                                         </div>
                                     </div>
@@ -137,7 +137,7 @@ export default function FormTab() {
                                     <div>
                                         <label htmlFor="buy-properties" className="form-label font-medium text-slate-900 dark:text-white">Select Categories:</label>
                                         <div className="filter-search-form relative !rounded-md mt-2">
-                                            <RxHome className="uil uil-estate absolute top-4.25 start-4 text-xl z-1 text-primary"></RxHome>
+                                            <RxHome className="uil-estate absolute top-4.25 start-4 text-xl z-1 text-primary"></RxHome>
                                             <Select className="form-input filter-input-box !bg-gray-50 dark:!bg-slate-800 border-0" options={Houses} />
                                         </div>
                                     </div>
@@ -162,3 +162,4 @@ export default function FormTab() {
         </div>
   )
 }
+
