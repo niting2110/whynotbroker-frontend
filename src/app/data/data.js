@@ -621,3 +621,44 @@ export const invoiceData = [];
 export const pricingData = [];
 export const contactDetails = {};
 
+
+
+export const reviewData = [];
+export const review = reviewData;
+export const featureData = [];
+
+
+export const featureData = [
+  {
+    "icon": "uil uil-airplay",
+    "title": "Property Search",
+    "description": "Advanced search filters to find your perfect property quickly."
+  },
+  {
+    "icon": "uil uil-calendar-alt",
+    "title": "Schedule Visits",
+    "description": "Book property visits online with verified agents."
+  },
+  {
+    "icon": "uil uil-shield-check",
+    "title": "Verified Listings",
+    "description": "All properties are verified to ensure authenticity."
+  },
+  {
+    "icon": "uil uil-chart-line",
+    "title": "Price Analytics",
+    "description": "Get detailed price trends and market analysis."
+  },
+  {
+    "icon": "uil uil-users-alt",
+    "title": "Agent Network",
+    "description": "Connect with trusted real estate professionals."
+  },
+  {
+    "icon": "uil uil-file-contract",
+    "title": "Paperwork Help",
+    "description": "Assistance with legal documentation and contracts."
+  }
+];
+
+export const feature = featureData;
