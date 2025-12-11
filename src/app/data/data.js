@@ -46,3 +46,12 @@ export default {
   feature, partnerData, teamData, counterData, aboutData, conatctDetails,
   contactDetails, propertiesDetails, listingData, accordianData
 };
+
+
+export const conatctDetails = {
+  address: "123 Property Street, City, Country",
+  phone: "+1 234 567 8900",
+  email: "info@whynotbroker.com",
+  hours: "Mon-Fri: 9AM-6PM"
+};
+export const contactDetails = conatctDetails;
