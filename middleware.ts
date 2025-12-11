@@ -7,28 +7,27 @@ import { NextResponse } from "next/server";
  Adjust publicRoutes regexes as needed.
 */
 
-const publicPaths = [
-    "/",                        // homepage
-    "/sign-in(.*)",             // clerk sign in flows
-    "/sign-up(.*)",             // clerk sign up flows
-    "/api/webhook(.*)",         // webhooks (keep public if necessary)
-    "/properties(.*)",          // public listing pages, property detail pages
-    "/about(.*)",               // about page
-    "/contact(.*)",             // contact page
-    "/images(.*)",              // static public images if served from this app
-    "/_vercel(.*)",             // Vercel preview/health endpoints if any
+// Note: For routes like /properties(.*), we only need the base path /properties
+const publicPathPrefixes = [
+    "/",
+    "/sign-in",
+    "/sign-up",
+    "/api/webhook",
+    "/properties",
+    "/about",
+    "/contact",
+    "/images",
+    "/_vercel",
 ];
 
 export default clerkMiddleware((auth, request) => {
     const { pathname } = request.nextUrl;
 
-    // Check if the current path matches any of the public paths
-    const isPublicRoute = publicPaths.some(path => {
-        // The path strings use (.*) for matching all subpaths (e.g., /properties/123)
-        // We ensure the regex starts with the path prefix and matches everything after it.
-        // We replace '(...)' with '.*' to make it a valid RegExp string.
-        const regex = new RegExp(^);
-        return regex.test(pathname);
+    // Check if the current pathname starts with any of the defined public prefixes
+    // This handles cases like /properties and /properties/123
+    const isPublicRoute = publicPathPrefixes.some(prefix => {
+        // Paths must match the start exactly (e.g., /about matches /about/team)
+        return pathname === prefix || pathname.startsWith(${prefix}/);
     });
 
     // If the path is not public, protect it
