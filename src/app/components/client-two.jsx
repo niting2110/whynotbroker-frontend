@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 import React from "react";
 import dynamic from 'next/dynamic';
 import Image from "next/image";
@@ -42,7 +42,7 @@ export default function ClientTwo() {
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">What Our Client Say ?</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
                 </div>
 
                 <div className="flex justify-center relative mt-8">
@@ -79,6 +79,5 @@ export default function ClientTwo() {
     );
 
 }
-
 
 

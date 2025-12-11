@@ -3,7 +3,7 @@
    Email: support@shreethemes.in
    Website: https://shreethemes.in
    Version: 2.7.0
-   Created: May 2022
+   Created: June 2022
    File: Main Css File
 */
 
@@ -59,9 +59,9 @@
 @import "./custom/structure/_topnav.css";
 @import "./custom/structure/_footer.css";
 @import "./components/_buttons.css";
+@import "./custom/pages/_hero.css";
 @import "./custom/pages/_countdown.css";
-@import "./custom/pages/_portfolio.css";
-@import "./custom/plugins/_testi.css";
-@import "./custom/plugins/_calendar.css";
-@import "./custom/plugins/_ckeditor.css";
-@import "./custom/plugins/_apexchart.css";
+@import "./custom/pages/_contact.css";
+@import "./custom/pages/_swiper-slider.css";
+@import "./custom/pages/_testi.css";
+@import "./custom/pages/_choices.css";

@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 import React from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -25,7 +25,7 @@ export default function HeroSlider(){
                                 <div className="grid grid-cols-1">
                                     <div className="text-center">
                                         <h1 className="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">Easy way to find your <br/> dream property</h1>
-                                        <p className="text-white/70 text-xl max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
+                                        <p className="text-white/70 text-xl max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
                                         
                                         <div className="mt-6">
                                             <a href="" className="btn bg-primary hover:bg-primary-700 text-white rounded-md">See More</a>
@@ -43,7 +43,7 @@ export default function HeroSlider(){
                                 <div className="grid grid-cols-1">
                                     <div className="text-center">
                                         <h1 className="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">We will help you find <br/> your Wonderful home</h1>
-                                        <p className="text-white/70 text-xl max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
+                                        <p className="text-white/70 text-xl max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
                                         
                                         <div className="mt-6">
                                             <a href="" className="btn bg-primary hover:bg-primary-700 text-white rounded-md">See More</a>
@@ -62,5 +62,4 @@ export default function HeroSlider(){
         </section>
     )
 }
-
 

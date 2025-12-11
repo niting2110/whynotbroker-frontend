@@ -1,4 +1,4 @@
-﻿"use client"; // This is a client component ðŸ‘ˆðŸ½
+"use client"; // This is a client component 👈🏽
 import React, { useState } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
@@ -41,7 +41,7 @@ export default function FormTwo(){
             <div className="grid grid-cols-1 mt-10">
                 <div className="text-center">
                     <h1 className="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">Easy way to find your <br /> dream property</h1>
-                    <p className="text-white/70 text-xl max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
+                    <p className="text-white/70 text-xl max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
                 </div>
                 <ul className="inline-block mx-auto sm:w-fit w-full flex-wrap justify-center text-center p-4 mt-10 bg-white dark:bg-slate-900 rounded-t-xl border-b border-slate-100 dark:border-gray-800" id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
                     <li role="presentation" className="inline-block">

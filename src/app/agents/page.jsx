@@ -17,7 +17,7 @@ export default function Page() {
             <div className="absolute inset-0 bg-slate-900/80"></div>
             <div className="container relative">
                 <div className="grid grid-cols-1 text-center mt-10">
-                    <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">WhyNotBroker Certified Agents</h3>
+                    <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Agents / Brokers</h3>
                 </div>
             </div>
         </section>
@@ -62,4 +62,3 @@ export default function Page() {
     </>
   )
 }
-

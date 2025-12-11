@@ -18,7 +18,7 @@ export default function Sell(){
                 <div className="absolute inset-0 bg-slate-900/80"></div>
                 <div className="container relative">
                     <div className="grid grid-cols-1 text-center mt-10">
-                        <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Sell Property - Zero Brokerage</h3>
+                        <h3 className="md:text-4xl text-3xl md:leading-normal leading-normal font-medium text-white">Sell Faster. Save Thousands.</h3>
                     </div>
                 </div>
             </section>
@@ -33,9 +33,9 @@ export default function Sell(){
                 <Feature />
                 <div className="container lg:mt-24 mt-16">
                     <div className="grid grid-cols-1 pb-8 text-center">
-                        <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">WhyNotBroker Savings Calculator</h3>
+                        <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Brokerage Calculator</h3>
 
-                        <p className="text-slate-400 max-w-xl mx-auto">Karnataka's trusted property portal. Buy, sell, rent directly.</p>
+                        <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
                     </div>
 
                     <div className="md:flex justify-center mt-8">
@@ -58,5 +58,3 @@ export default function Sell(){
         </>
     )
 }
-
-

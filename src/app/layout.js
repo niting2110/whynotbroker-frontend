@@ -1,4 +1,4 @@
-﻿import './assets/css/tailwind.css'
+import './assets/css/tailwind.css'
 import './assets/css/materialdesignicons.min.css'
 
 import {League_Spartan } from 'next/font/google'
@@ -11,8 +11,8 @@ const league_Spartan = League_Spartan({
 })
 
 export const metadata = {
-  title: 'WhyNotBroker - Next Js Property Portal Landing & Admin Dashboard Template',
-  description: 'WhyNotBroker - Next Js Property Portal Landing & Admin Dashboard Template',
+  title: 'Hously - Next Js Real Estate Landing & Admin Dashboard Template',
+  description: 'Hously - Next Js Real Estate Landing & Admin Dashboard Template',
 };
 
 export default function RootLayout({ children }) {
@@ -22,4 +22,3 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
