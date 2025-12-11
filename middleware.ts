@@ -20,13 +20,15 @@ const publicPaths = [
 ];
 
 export default clerkMiddleware((auth, request) => {
+    const { pathname } = request.nextUrl;
+
     // Check if the current path matches any of the public paths
     const isPublicRoute = publicPaths.some(path => {
-        // Create a RegExp object from the path string
-        // The original code uses (.*) which should match everything after the prefix, 
-        // so we use a looser check here to allow Next.js to match paths like /properties/123
-        const regex = new RegExp(^); 
-        return regex.test(request.nextUrl.pathname);
+        // The path strings use (.*) for matching all subpaths (e.g., /properties/123)
+        // We ensure the regex starts with the path prefix and matches everything after it.
+        // We replace '(...)' with '.*' to make it a valid RegExp string.
+        const regex = new RegExp(^);
+        return regex.test(pathname);
     });
 
     // If the path is not public, protect it
