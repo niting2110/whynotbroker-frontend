@@ -73,17 +73,17 @@ export const teamData = [];
 export const counterData = [];
 export const aboutData = [
     {
-        icon: <FiHexagon />,
+        icon: "FiHexagon",
         title: "Buy Property",
         description: "Find your dream home with our extensive listings"
     },
     {
-        icon: <FiHexagon />,
+        icon: "FiHexagon",
         title: "Sell Property",
         description: "List your property and reach thousands of buyers"
     },
     {
-        icon: <FiHexagon />,
+        icon: "FiHexagon",
         title: "Rent Property",
         description: "Find perfect rental properties for your needs"
     }
@@ -120,6 +120,7 @@ export default {
   chatData, invoiceData, pricingData, partnerData, teamData, counterData,
   aboutData, listingData, accordianData, conatctDetails, contactDetails
 };
+
 
 
 
