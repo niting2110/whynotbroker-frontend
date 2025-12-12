@@ -1,0 +1,22 @@
+﻿pre-commit:
+  parallel: true
+  commands:
+    check-db-docs:
+      glob: "database/**/*.{yaml,yml,sql}"
+      run: |
+        echo "🔍 Checking database documentation..."
+        if [ -n "$(git diff --cached --name-only --diff-filter=ACM | grep -E '"database/.*\.(yaml|yml|sql)$'")" ]; then
+          if ! git diff --cached --name-only | grep -q "DATABASE_DOCUMENTATION.md"; then
+            echo "❌ ERROR: Database changes detected but DATABASE_DOCUMENTATION.md not updated!"
+            echo ""
+            echo "📋 POLICY VIOLATION:"
+            echo "All database changes must be documented in DATABASE_DOCUMENTATION.md"
+            echo ""
+            echo "💡 Please:"
+            echo "1. Update DATABASE_DOCUMENTATION.md with your changes"
+            echo "2. Add it to this commit: git add DATABASE_DOCUMENTATION.md"
+            echo "3. Try committing again"
+            exit 1
+          fi
+        fi
+        echo "✅ Database documentation updated correctly."
