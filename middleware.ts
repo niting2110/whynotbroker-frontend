@@ -1,27 +1,20 @@
 ﻿// middleware.ts
-import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
-import { NextResponse } from 'next/server';
+import { clerkMiddleware } from "@clerk/nextjs/server";
 
-const isPublicRoute = createRouteMatcher([
-  '/',
-  '/sign-in(.*)',
-  '/sign-up(.*)',
-  '/api/webhook(.*)',
-  '/properties(.*)',
-  '/about(.*)',
-  '/contact(.*)',
-  '/images(.*)',
-  '/_vercel(.*)',
-]);
-
-export default clerkMiddleware((auth, req) => {
-  if (!isPublicRoute(req)) {
-    auth().protect();
-  }
-  
-  return NextResponse.next();
+export default clerkMiddleware({
+  publicRoutes: [
+    "/",
+    "/sign-in(.*)",
+    "/sign-up(.*)", 
+    "/api/webhook(.*)",
+    "/properties(.*)",
+    "/about(.*)",
+    "/contact(.*)",
+    "/images(.*)",
+    "/_vercel(.*)",
+  ],
 });
 
 export const config = {
-  matcher: ['/((?!.*\\..*|_next).*)', '/', '/(api|trpc)(.*)'],
+  matcher: ["/((?!.+\\.[\\w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
 };
