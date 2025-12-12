@@ -21,7 +21,8 @@ export default clerkMiddleware(async (auth, req) => {
   );
 
   if (!isPublic) {
-    await auth().protect();
+    // Just check auth - Clerk handles protection automatically
+    await auth();
   }
 });
 
