@@ -1,33 +1,27 @@
 ﻿// middleware.ts
-import { clerkMiddleware } from "@clerk/nextjs/server";
-import { NextResponse } from "next/server";
+import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
+import { NextResponse } from 'next/server';
 
-const publicPathPrefixes = [
-    "/",
-    "/sign-in",
-    "/sign-up",
-    "/api/webhook",
-    "/properties",
-    "/about",
-    "/contact",
-    "/images",
-    "/_vercel",
-];
+const isPublicRoute = createRouteMatcher([
+  '/',
+  '/sign-in(.*)',
+  '/sign-up(.*)',
+  '/api/webhook(.*)',
+  '/properties(.*)',
+  '/about(.*)',
+  '/contact(.*)',
+  '/images(.*)',
+  '/_vercel(.*)',
+]);
 
-export default clerkMiddleware((auth, request) => {
-    const { pathname } = request.nextUrl;
-
-    const isPublicRoute = publicPathPrefixes.some(prefix => {
-        return pathname === prefix || pathname.startsWith(prefix + '/');
-    });
-
-    if (!isPublicRoute) {
-        auth().protect();
-    }
-    
-    return NextResponse.next();
+export default clerkMiddleware((auth, req) => {
+  if (!isPublicRoute(req)) {
+    auth().protect();
+  }
+  
+  return NextResponse.next();
 });
 
 export const config = {
-    matcher: ["/((?!.+\\.[\\w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
+  matcher: ['/((?!.*\\..*|_next).*)', '/', '/(api|trpc)(.*)'],
 };
