@@ -17,17 +17,18 @@ export const metadata = {
   description: 'Hously - Next Js Real Estate Landing & Admin Dashboard Template',
 };
 
-// ONLY ONE export default - MERGES ALL FUNCTIONALITY
+// ONLY ONE export default function - MERGED VERSION
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="light scroll-smooth" dir="ltr">
       <body className={`${league_Spartan.className} dark:bg-slate-900`}>
         {children}
-        {/* ANALYTICS & SPEED INSIGHTS ADDED HERE */}
+        {/* ADD Analytics & SpeedInsights HERE */}
         <Analytics />
         <SpeedInsights />
       </body>
     </html>
   );
 }
-// END OF FILE - NO MORE CODE BELOW
+
+// DELETE everything below this line - NO MORE FUNCTIONS
