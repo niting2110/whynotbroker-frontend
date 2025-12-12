@@ -1,4 +1,4 @@
-﻿// middleware.ts - MUST be in root directory
+﻿// middleware.ts
 import { clerkMiddleware } from "@clerk/nextjs/server";
 
 const publicPaths = [
@@ -13,7 +13,7 @@ const publicPaths = [
   "/_vercel"
 ];
 
-export default clerkMiddleware((auth, req) => {
+export default clerkMiddleware(async (auth, req) => {
   const pathname = req.nextUrl.pathname;
   
   const isPublic = publicPaths.some(path => 
@@ -21,7 +21,7 @@ export default clerkMiddleware((auth, req) => {
   );
 
   if (!isPublic) {
-    auth().protect();
+    await auth().protect();
   }
 });
 
